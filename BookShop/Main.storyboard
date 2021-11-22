@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19528" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19528"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -709,7 +708,7 @@
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                     <tableColumns>
-                                                        <tableColumn width="166" minWidth="40" maxWidth="1000" id="saS-hL-0tt">
+                                                        <tableColumn width="137" minWidth="40" maxWidth="1000" id="saS-hL-0tt">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -722,18 +721,18 @@
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             <prototypeCellViews>
                                                                 <tableCellView identifier="BookCell" id="1g4-am-BTY" customClass="BookCellView" customModule="BookShop" customModuleProvider="target">
-                                                                    <rect key="frame" x="1" y="5" width="175" height="114"/>
+                                                                    <rect key="frame" x="1" y="5" width="146" height="114"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <stackView distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ve-X1-AZg">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="175" height="114"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="146" height="114"/>
                                                                             <subviews>
                                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="59l-sW-JII">
-                                                                                    <rect key="frame" x="62" y="48" width="51" height="66"/>
+                                                                                    <rect key="frame" x="48" y="48" width="51" height="66"/>
                                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="iAT_t" id="Pki-xR-fpz"/>
                                                                                 </imageView>
                                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="X2N-RE-keS">
-                                                                                    <rect key="frame" x="12" y="0.0" width="152" height="40"/>
+                                                                                    <rect key="frame" x="-2" y="0.0" width="150" height="40"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="height" constant="40" id="7L0-ui-6fj"/>
                                                                                     </constraints>
