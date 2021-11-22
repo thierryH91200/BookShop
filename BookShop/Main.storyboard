@@ -645,7 +645,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BookShop" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="161" y="0.0"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -658,9 +658,7 @@
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <toolbar key="toolbar" implicitIdentifier="6B645467-74EF-4F0D-A2BE-FD2E4470AF62" autosavesConfiguration="NO" allowsUserCustomization="NO" showsBaselineSeparator="NO" displayMode="iconOnly" sizeMode="small" id="lY9-b7-tCV">
                             <allowedToolbarItems>
-                                <toolbarItem implicitItemIdentifier="C992C26E-AC8E-409E-B3E1-20AD807958D8" label="Show List" paletteLabel="Show List" tag="1" image="list-selected-icon" id="hhT-jD-hHu">
-                                    <size key="minSize" width="22" height="22"/>
-                                    <size key="maxSize" width="22" height="22"/>
+                                <toolbarItem implicitItemIdentifier="C992C26E-AC8E-409E-B3E1-20AD807958D8" label="Show List" paletteLabel="Show List" tag="1" image="list-selected-icon" sizingBehavior="auto" id="hhT-jD-hHu">
                                     <connections>
                                         <action selector="actionToggleListView:" target="Oky-zY-oP4" id="X27-la-jc3"/>
                                     </connections>
@@ -682,7 +680,7 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="105" y="308"/>
+            <point key="canvasLocation" x="190" y="273"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">

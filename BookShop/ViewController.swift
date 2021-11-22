@@ -50,13 +50,11 @@ class ViewController: NSViewController {
         books = try! data.decoded()
         
         tableView.reloadData()
-
         
         let indexRow = 0
         tableView.selectRowIndexes([indexRow ], byExtendingSelection: false)
         displayBookDetails(book: books[tableView.selectedRow])
     }
-
     
     @IBAction func actionToggleListView(_ sender: Any) {
         if let button = sender as? NSToolbarItem {
@@ -81,13 +79,6 @@ class ViewController: NSViewController {
             }, completionHandler: nil)
         }
     }
-}
-
-    //
-    //  Starter code
-    //
-extension ViewController {
-    
     
     func displayBookDetails(book: Book) {
         coverImageView.image = NSImage(named: book.cover )
@@ -105,11 +96,14 @@ extension ViewController {
     //
     //  Table view code
     //
-extension ViewController: NSTableViewDataSource, NSTableViewDelegate {
+extension ViewController: NSTableViewDataSource {
     
     func numberOfRows(in tableView: NSTableView) -> Int {
         return books.count
     }
+}
+
+extension ViewController: NSTableViewDelegate {
     
     func tableView(_ tableView: NSTableView, heightOfRow row: Int) -> CGFloat {
         return 100
